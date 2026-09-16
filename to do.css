@@ -9,24 +9,48 @@
 .tudo{
     position: absolute;
     left: 15vh;
+    border-radius: 5px;
+    border: solid;
+    border-color: gray;
+    top: 35vh;
+    width: 500px;
 }
 
 .cima{
     display: flex;
     flex-direction: row;
-    border: solid;
     width: 500px;
     justify-content: center;
     align-items: center;
+    gap: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
 .tarefas{
     display: flex;
     flex-direction: column;
-    border: solid;
     width: 500px;
 }
 
-input{
+ul{
+    margin-left: 40px;
     padding: 15px;
+}
+
+li{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px;
+    width: 275px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
 }
