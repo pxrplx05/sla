@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: #808791;
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.tudo{
+    position: absolute;
+    left: 15vh;
+}
+
+.cima{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarefas{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 500px;
+}
+
+input{
+    padding: 15px;
+}
